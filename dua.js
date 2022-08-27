@@ -1,4 +1,4 @@
-function checkTypeNumber(givenNumber) {
+let checkTypeNumber = givenNumber => {
     if (typeof givenNumber == "string") { 
         return 'Error : Invalid data type'
     }
